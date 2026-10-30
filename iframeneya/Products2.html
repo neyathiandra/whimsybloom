@@ -1,0 +1,178 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lokasi Toko Cabang</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #FFE4E1;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      text-align: center;
+      color: #1B263B;
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #555;
+      font-size: 15px;
+      margin-bottom: 30px;
+    }
+
+    .grid-cabang {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card-cabang {
+      background: white;
+      border-radius: 12px;
+      width: 300px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border-top: 5px solid #1B263B;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .header-cabang {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .nama-cabang {
+      font-size: 18px;
+      color: #1B263B;
+      font-weight: bold;
+    }
+
+    .kode-cabang {
+      background-color: #e91e63;
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+      padding: 4px 8px;
+      border-radius: 4px;
+    }
+
+    .info-cabang {
+      font-size: 14px;
+      color: #555;
+      line-height: 1.5;
+      margin-bottom: 15px;
+    }
+
+    .info-cabang p {
+      margin-bottom: 6px;
+    }
+
+    .status-buka {
+      color: #2e7d32;
+      font-weight: bold;
+    }
+
+    .btn-maps {
+      display: block;
+      text-align: center;
+      background-color: #1B263B;
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .btn-maps:hover {
+      background-color: #334e68;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2><font face="Gabriola Regular" size="10" color="480082">Lokasi Toko Cabang</font></h2>
+    <p class="subtitle">Temukan kode cabang dan lokasi terdekat kami</p>
+
+    <div class="grid-cabang">
+
+      <!-- Cabang 1 -->
+      <div class="card-cabang">
+        <div>
+          <div class="header-cabang">
+            <span class="nama-cabang">Cabang Jakarta</span>
+            <span class="kode-cabang">FLW-JKT01</span>
+          </div>
+          <div class="info-cabang">
+            <p><strong>Alamat:</strong> Jl. Melati No. 12, Jakarta</p>
+            <p><strong>Telepon:</strong> 0812-3456-7890</p>
+            <p><strong>Jam Operasional:</strong> 08:00 - 20:00 WIB</p>
+            <p><strong>Status:</strong> <span class="status-buka">● Buka Hari Ini</span></p>
+          </div>
+        </div>
+        <a href="https://maps.google.com" target="_blank" class="btn-maps">Lihat di Google Maps</a>
+      </div>
+
+      <!-- Cabang 2 -->
+      <div class="card-cabang">
+        <div>
+          <div class="header-cabang">
+            <span class="nama-cabang">Cabang Bandung</span>
+            <span class="kode-cabang">FLW-BDG02</span>
+          </div>
+          <div class="info-cabang">
+            <p><strong>Alamat:</strong> Jl. Mawar No. 45, Bandung</p>
+            <p><strong>Telepon:</strong> 0813-9876-5432</p>
+            <p><strong>Jam Operasional:</strong> 08:30 - 20:00 WIB</p>
+            <p><strong>Status:</strong> <span class="status-buka">● Buka Hari Ini</span></p>
+          </div>
+        </div>
+        <a href="https://maps.google.com" target="_blank" class="btn-maps">Lihat di Google Maps</a>
+      </div>
+
+      <!-- Cabang 3 -->
+      <div class="card-cabang">
+        <div>
+          <div class="header-cabang">
+            <span class="nama-cabang">Cabang Surabaya</span>
+            <span class="kode-cabang">FLW-SBY03</span>
+          </div>
+          <div class="info-cabang">
+            <p><strong>Alamat:</strong> Jl. Anggrek No. 88, Surabaya</p>
+            <p><strong>Telepon:</strong> 0811-2233-4455</p>
+            <p><strong>Jam Operasional:</strong> 09:00 - 18:00 WIB</p>
+            <p><strong>Status:</strong> <span class="status-buka">● Buka Hari Ini</span></p>
+          </div>
+        </div>
+        <a href="https://maps.google.com" target="_blank" class="btn-maps">Lihat di Google Maps</a>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>

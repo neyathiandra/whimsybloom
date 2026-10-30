@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daftar Supplier Bunga</title>
+  <style>
+    /* Reset & Dasar Halaman */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #FFE4E1;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 1050px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      text-align: center;
+      color: #1B263B;
+      font-size: 30px;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #555;
+      font-size: 15px;
+      margin-bottom: 35px;
+    }
+
+    /* Grid Layout Supplier */
+    .grid-supplier {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px;
+      justify-content: center;
+    }
+
+    /* Kartu Supplier */
+    .card-supplier {
+      background: white;
+      border-radius: 14px;
+      width: 310px;
+      padding: 22px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+      border-top: 5px solid #1B263B;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .card-supplier:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 10px 22px rgba(0,0,0,0.15);
+    }
+
+    /* Header Kartu */
+    .header-supplier {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 15px;
+    }
+
+    .nama-supplier {
+      font-size: 19px;
+      color: #1B263B;
+      font-weight: bold;
+      line-height: 1.3;
+    }
+
+    .kode-supplier {
+      font-size: 11px;
+      color: #777;
+      margin-top: 3px;
+    }
+
+    .badge-tipe {
+      background-color: #e91e63;
+      color: white;
+      font-size: 11px;
+      font-weight: bold;
+      padding: 4px 10px;
+      border-radius: 20px;
+      letter-spacing: 0.5px;
+      white-space: nowrap;
+    }
+
+    .badge-impor {
+      background-color: #0288d1;
+    }
+
+    /* Rating Star */
+    .rating {
+      color: #ffb300;
+      font-size: 14px;
+      margin-bottom: 12px;
+      font-weight: bold;
+    }
+
+    /* Detail Info Supplier */
+    .info-supplier {
+      font-size: 13.5px;
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .info-supplier p {
+      margin-bottom: 6px;
+    }
+
+    /* Tag Bunga yang Disuplai */
+    .tags-bunga {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 8px;
+    }
+
+    .tag-item {
+      background-color: #fff0f5;
+      color: #e91e63;
+      font-size: 11px;
+      padding: 3px 8px;
+      border-radius: 5px;
+      font-weight: 600;
+      border: 1px solid #ffd1dc;
+    }
+
+    /* Tombol Kontak */
+    .btn-kontak {
+      display: block;
+      text-align: center;
+      background-color: #1B263B;
+      color: white;
+      text-decoration: none;
+      padding: 11px;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 14px;
+      transition: background-color 0.2s ease;
+    }
+
+    .btn-kontak:hover {
+      background-color: #334e68;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2><font face="Gabriola Regular" size="10" color="#480082">Supplier Bunga</font></h2>
+    <p class="subtitle">Daftar pemasok resmi bunga segar dan material dekorasi berkualitas tinggi</p>
+
+    <div class="grid-supplier">
+
+      <!-- Supplier 1 -->
+      <div class="card-supplier">
+        <div>
+          <div class="header-supplier">
+            <div>
+              <div class="nama-supplier">Flora Nusantara</div>
+              <div class="kode-supplier">ID Supplier: SUP-001</div>
+            </div>
+            <span class="badge-tipe">Lokal</span>
+          </div>
+
+          <div class="rating">★ 4.9 <span style="color:#777; font-weight:normal;">(120+ Pasokan)</span></div>
+
+          <div class="info-supplier">
+            <p><strong>Lokasi Kebun:</strong> Bandung, Jawa Barat</p>
+            <p><strong>Kontak PIC:</strong> Pak Budi (0812-1111-2222)</p>
+            <p><strong>Spesialisasi Bunga:</strong></p>
+            <div class="tags-bunga">
+              <span class="tag-item">Mawar Segar</span>
+              <span class="tag-item">Krisan</span>
+              <span class="tag-item">Gerbera</span>
+            </div>
+          </div>
+        </div>
+        <a href="https://wa.me/6281211112222" target="_blank" class="btn-kontak">Hubungi Supplier</a>
+      </div>
+
+      <!-- Supplier 2 -->
+      <div class="card-supplier">
+        <div>
+          <div class="header-supplier">
+            <div>
+              <div class="nama-supplier">Global Flora Import</div>
+              <div class="kode-supplier">ID Supplier: SUP-002</div>
+            </div>
+            <span class="badge-tipe badge-impor">Impor</span>
+          </div>
+
+          <div class="rating">★ 4.8 <span style="color:#777; font-weight:normal;">(85+ Pasokan)</span></div>
+
+          <div class="info-supplier">
+            <p><strong>Asal Impor:</strong> Belanda & Ekuador</p>
+            <p><strong>Kontak PIC:</strong> Ibu Ratna (0813-3333-4444)</p>
+            <p><strong>Spesialisasi Bunga:</strong></p>
+            <div class="tags-bunga">
+              <span class="tag-item">Tulip</span>
+              <span class="tag-item">Lily Premium</span>
+              <span class="tag-item">Peony</span>
+            </div>
+          </div>
+        </div>
+        <a href="https://wa.me/6281333334444" target="_blank" class="btn-kontak">Hubungi Supplier</a>
+      </div>
+
+      <!-- Supplier 3 -->
+      <div class="card-supplier">
+        <div>
+          <div class="header-supplier">
+            <div>
+              <div class="nama-supplier">Everlasting Dried Art</div>
+              <div class="kode-supplier">ID Supplier: SUP-003</div>
+            </div>
+            <span class="badge-tipe">Lokal</span>
+          </div>
+
+          <div class="rating">★ 5.0 <span style="color:#777; font-weight:normal;">(95+ Pasokan)</span></div>
+
+          <div class="info-supplier">
+            <p><strong>Workshop:</strong> Malang, Jawa Timur</p>
+            <p><strong>Kontak PIC:</strong> Mas Agus (0815-5555-6666)</p>
+            <p><strong>Spesialisasi Bunga:</strong></p>
+            <div class="tags-bunga">
+              <span class="tag-item">Bunga Kering</span>
+              <span class="tag-item">Preserved Flower</span>
+              <span class="tag-item">Pampas</span>
+            </div>
+          </div>
+        </div>
+        <a href="https://wa.me/6281555556666" target="_blank" class="btn-kontak">Hubungi Supplier</a>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<html>
+<head>
+   <title>.: PRODUCTS :.</title>
+
+  <!-- Menghubungkan CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<p align="middle"><font face="Gabriola Regular" color="#480082">Berikut adalah ragam produk yang ditawarkan oleh Whimsy Bloom!</p> 
+
+<h1 align="middle"><font face="Gabriola Regular" color="brown">Produk & Layanan Whimsy Bloom</font></h1>
+
+<p align="middle"><font face="Calibri"><b>1. Fresh Flowers Arrangements (Bunga Segar):</b></font></p>
+
+<p align="middle"><font face="Calibri">✿ Custom Bouquet: Buket bunga segar yang dirangkai sesuai pilihan warna, jenis bunga, dan nuansa yangkamu inginkan.</font></p>
+<img src="thumbelina.jpg" alt="header" width"1300" height="400"align="center">
+
+<p align="middle"><font face="Calibri">✿ Bloom in a Box/Vase: Rangkain bunga segar di dalam kotak eksklusif atau vas cantik yang siap dipajang di sudut ruangan.</font></p>
+
+<p align="middle"><font face="Calibri">✿ Single Stems & Mini Bouquet: Pilihan bunga per tangkai atau buket mini yang simpel namun elegan untuk hadiah manis.</font></p>
+<h2>‎ </h2>
+<p align="middle"><font face="Calibri"><b>2. Preserved & Dried Flowers (Bunga Tahan Lama):</b></font></p>
+
+<p align="middle"><font face="Calibri">✿ Dried Flower Bouquet: Rangkain bunga kering dengan estetika vintage dan warna-warna warm yang tahan hingga berbulan-bulan.</font></p>
+
+<p align="middle"><font face="Calibri" color="#480082">✿ Glass Dome Arrangement: Bunga yang diawetkan (preserved) di dalam kubah kaca transparan, cocok untuk kenang-kenangan atau hadiah abadi.</font></p>
+
+<p align="middle"><font face="Calibri" color="#480082">✿ Pressed Flower Frame: Seni bunga yang dikeringkan dan dipress rapi di dlam bingkai kaca transparan.</font></p>
+<h3>‎ </h3>
+<p align="middle"><font face="Calibri" color="#480082"><b>3. Floral Accessories & Gifts (aksesori & Hadiah Bertema Bunga):</b></font></p>
+
+<p align="middle"><font face="Calibri" color="#480082">✿ Scented Wax Casket/ Candle: Lilin aromaterapi berbahan alami yang dihiasi kelopak bunga kering.</font></p>
+
+<p align="middle"><font face="Calibri" color="#480082">✿ Greeting Cards & Wrapping: Kartu ucapan buatan tangan (handmade) dengan hiasan bunga kering asli.
+
+<p align="middle"><font face="Calibri" color="#480082">✿ Floral Journaling & Sticker Set: Kit stiker dan stasioneri berpola bunga untuk para pecinta seni.
+
+
+
+
+
+</body>
